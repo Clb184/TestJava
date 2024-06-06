@@ -1,0 +1,17 @@
+@startuml
+class ExampleClass{
+-attribute1: type
+-attribute2: type
++Method1(): void
++Method2(parameter: type): return
++Method3()
+}
+
+class CScene{
++Move(): void
++Draw() : void
+}
+
+ExampleClass --|> CScene
+
+@enduml
